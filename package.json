@@ -1,0 +1,16 @@
+{
+  "name": "cypressskilltest",
+  "version": "1.0.0",
+  "description": "This solution is to showcase skillset using cypress",
+  "main": "index.js",
+  "scripts": {
+    "HerokuappTests": "cypress run --spec cypress/integration/Herokuapp.js",
+    "ProgramFile": "node ./cypress/integration/Program.js"
+  },
+  "author": "Vamsi Akula",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.0",
+    "mochawesome": "^6.2.2"
+  }
+}
