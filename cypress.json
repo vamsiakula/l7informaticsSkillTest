@@ -8,7 +8,7 @@
     "reporterOptions": {
       "reportDir": "cypress/reports/mocha",
       "reportFilename": "report",
-      "overwrite": false,
+      "overwrite": true,
       "html": true,
       "json": true,
       "charts": true
